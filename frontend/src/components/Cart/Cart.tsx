@@ -21,7 +21,7 @@ export interface Props {
 }
 
 const Cart = ({ cart, getCart }: Props) => {
-  const [activeModal, setActiveModal] = useState<modal>(null);
+
 
   const removeItem = async (itemId: string) => {
     await editCart({
