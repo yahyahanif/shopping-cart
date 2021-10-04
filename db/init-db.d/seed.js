@@ -20,19 +20,7 @@ db.products.insertMany([
       price: 700,
       photo: '/img/apple_iphone_8_plus.jpg'
     },
-    tags: {
-      priceRange: '500-750',
-      brand: 'apple',
-      color: 'white',
-      os: 'ios',
-      internalMemory: '256',
-      ram: '3',
-      displaySize: '5.5',
-      displayResolution: '1080x1920',
-      camera: '12',
-      cpu: 'hexa_core'
-    }
-  },
+    
   {
     info: {
       name: 'Apple iPhone X',
