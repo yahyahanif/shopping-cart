@@ -16,7 +16,7 @@ router.post('/', checkToken, (req, res) => {
   Cart.findOne({ user: user })
     .then((foundCart) => {
       if (foundCart) {
-        let products = foundCart.items.map((item) => item.product + '');
+        
         if (products.includes(item.product)) {
           Cart.findOneAndUpdate({
             user: user,
