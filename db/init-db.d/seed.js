@@ -39,19 +39,6 @@ db.products.insertMany([
       price: 950,
       photo: '/img/apple_iphone_x.jpg'
     },
-    tags: {
-      priceRange: '750>',
-      brand: 'apple',
-      color: 'black',
-      os: 'ios',
-      internalMemory: '256',
-      ram: '3',
-      displaySize: '5.8',
-      displayResolution: '1125x2436',
-      camera: '12',
-      cpu: 'hexa_core'
-    }
-  },
   {
     info: {
       name: 'HTC U11',
