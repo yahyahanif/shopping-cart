@@ -25,13 +25,7 @@ db.products.insertMany([
     info: {
       name: 'Apple iPhone X',
       dimensions: '143.6 x 70.9 x 7.7 mm',
-      weight: '174 g',
-      displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
-      displaySize: '5.8"',
-      displayResolution: '1125 x 2436 pixels',
-      os: 'iOS 11.1.1',
-      cpu: 'Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral)',
-      internalMemory: '256 GB',
+      weig
       ram: '3 GB',
       camera: 'Dual: 12 MP (f/1.8, 28mm) + 12 MP (f/2.4, 52mm)',
       batery: 'Non-removable Li-Ion 2716 mAh battery (10.35 Wh)',

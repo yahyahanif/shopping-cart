@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema({
     dimensions: String,
     weight: String,
     displayType: String,
-    displaySize: String,
+    
     displayResolution: String,
     os: String,
     cpu: String,
