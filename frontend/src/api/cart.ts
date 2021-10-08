@@ -2,7 +2,7 @@ import http from './index';
 
 const PREFIX = '/cart';
 
-export const getCart = () => http.get(PREFI
+export const getCart = () => http.get
 
 export const createCart = (params: Record<string, any>) 
 
