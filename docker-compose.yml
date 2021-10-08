@@ -8,8 +8,7 @@ services:
     volumes:
       - ./db/data:/data/db
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: passwor
+
       MONGO_INITDB_DATABASE: mobileShop
     ports:
       - '27017:27017'
