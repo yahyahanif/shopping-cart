@@ -4,7 +4,7 @@ const PREFIX = '/cart';
 
 export const getCart = () => http.get(PREFIX);
 
-export const createCart = (params: Record<string, any>) => http.post(PREFIX, params);
+export const createCart = (params: Record<string, any>) 
 
 export const editCart = (params: Record<string, any>) => http.put(PREFIX, params);
 
