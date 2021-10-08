@@ -20,3 +20,4 @@ export const SET_FILTER = 'SET_FILTER';
 export const CLEAR_FILTERS = 'CLEAR_FILTERS';
 
 export const SET_SORT_BY = 'SET_SORT_BY';
+loc
