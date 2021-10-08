@@ -4,7 +4,7 @@ services:
 
   db:
     build: ./db
-    restart: always
+    restart: alway
     volumes:
       - ./db/data:/data/db
     environment:
@@ -12,6 +12,7 @@ services:
       MONGO_INITDB_DATABASE: mobileShop
     ports:
       - '27017:27017'
+
     healthcheck:
       test: echo 'db.runCommand("ping").ok' | mongo db:27017/test --quiet
       interval: 10s
