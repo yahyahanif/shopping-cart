@@ -189,23 +189,6 @@ db.products.insertMany([
     }
   },
   {
-    info: {
-      name: 'Samsung Galaxy A3',
-      dimensions: '130.1 x 65.5 x 6.9 mm',
-      weight: '110.3 g',
-      displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
-      displaySize: '4.5"',
-      displayResolution: '540 x 960 pixels',
-      os: 'Android 4.4.4 (KitKat)',
-      cpu: 'Quad-core 1.2 GHz Cortex-A53',
-      internalMemory: '16 GB',
-      ram: '1 GB',
-      camera: '8 MP (f/2.4, 31mm), autofocus, LED flash',
-      batery: 'Non-removable Li-Ion 1900 mAh battery',
-      color: 'Silver',
-      price: 150,
-      photo: '/img/samsung_galaxy_a3.JPG'
-    },
     tags: {
       priceRange: '<250',
       brand: 'samsung',
